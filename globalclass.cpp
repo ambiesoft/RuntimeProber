@@ -3,15 +3,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#include "showmodule.h"
 #include "globalclass.h"
 
 GlobalClass::GlobalClass()
 {
-	printf("ctor of GlobalClass. GetModuleHandle(nullptr)=%d\n", (int)GetModuleHandle(nullptr));
+	showmodule(L"GlobalClass::ctor");
 }
 GlobalClass::~GlobalClass()
 {
-	printf("dtor of GlobalClass. GetModuleHandle(nullptr)=%d\n", (int)GetModuleHandle(nullptr));
+	showmodule(L"GlobalClass::dtor");
 }
 
 GlobalClass globalClass;

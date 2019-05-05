@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\dllmain.cpp">
+    <ClCompile Include="..\globalclass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\globalclass.cpp">
+    <ClCompile Include="..\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\showmodule.cpp">
@@ -30,9 +30,6 @@
     <ClCompile Include="..\..\lsMisc\stdosd\stdosd_win.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\dllfunc.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\globalclass.h">
@@ -41,10 +38,10 @@
     <ClInclude Include="..\showmodule.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\lsMisc\stdosd\stdosd.h">
+    <ClInclude Include="..\dllfunc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\dllfunc.h">
+    <ClInclude Include="..\..\lsMisc\stdosd\stdosd.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
